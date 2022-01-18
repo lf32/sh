@@ -83,7 +83,7 @@ DATABASES = {
         'NAME': 'Urldb', 
         'USER': 'postgres', 
         'PASSWORD': '1111',
-        'HOST': '*', 
+        'HOST': env('DATABASE_URL'),
         'PORT': '5432',
     }
 }
