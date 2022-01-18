@@ -19,7 +19,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = env('SECRECT_KEY')  
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = [ '*' ]
 
@@ -83,7 +83,7 @@ DATABASES = {
         'NAME': 'Urldb', 
         'USER': 'postgres', 
         'PASSWORD': '1111',
-        'HOST': '127.0.0.1',
+        'HOST': 'https://url96.herokuapp.com/',
         'PORT': '5432',
     }
 }
