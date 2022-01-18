@@ -21,7 +21,7 @@ SECRET_KEY = env('SECRECT_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = [ '*' ]
+ALLOWED_HOSTS = [ 'https://url96.herokuapp.com' ]
 
 
 # Application definition
@@ -83,7 +83,7 @@ DATABASES = {
         'NAME': 'Urldb', 
         'USER': 'postgres', 
         'PASSWORD': '1111',
-        'HOST': 'https://url96.herokuapp.com/',
+        'HOST': 'https://url96.herokuapp.com',
         'PORT': '5432',
     }
 }
